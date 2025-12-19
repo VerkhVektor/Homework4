@@ -94,6 +94,6 @@ void main() {
     } else {
         max = three;
     }
-    System.out.println("Самое большое число это число " + max);
+    System.out.println("Самое большое число это число  " + max);
 }
 
