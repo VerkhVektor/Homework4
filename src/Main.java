@@ -53,7 +53,7 @@ void main() {
     boolean withAdult = true;
     if (age3 < 5) {
         System.out.println("Если возраст ребенка равен " + age3 + " то он не может кататься на аттракционе");
-    } else if (5 <= age3 && age3 <= 14) {
+    } else if (5 <= age3  && age3 <= 14) {
         if (withAdult == true) {
             System.out.println("Если возраст ребенка равен " + age3 + " то он может кататься только в сопровождении взрослого.");
         } else {
@@ -94,6 +94,6 @@ void main() {
     } else {
         max = three;
     }
-    System.out.println("Самое большое число это число " + max);
+    System.out.println("Самое большое число это число  " + max);
 }
 
